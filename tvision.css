@@ -1,5 +1,5 @@
 html {
-  background: #a5a4ce;
+  background: #1a1a1a;
   font-family: System, monospace;
   font-size: 10pt
 }
@@ -13,11 +13,11 @@ body {
   position: relative;
   cursor: default;
   margin: 2em auto; width: 80%;
-  background: #3465a4; color: white;
-  border: 6px double white;
+  background: #0a0a0a; color: white;
+  border: 6px double #e2b002;
   padding: 1em;
   box-shadow:
-    0   0   0   3px #3465a4,
+    0   0   0   3px #3c3c3c,
     1em 1em 3px 0 rgba(0,0,0,.5);
   max-width: 640px;
 }
@@ -31,11 +31,11 @@ body {
 }
 
 .window.white {
-  background: silver;
-  color: black;
-  border-color: white;
+  background: #0a0a0a;
+  color: white;
+  border-color: #e2b002;
   box-shadow:
-    0   0   0   3px silver,
+    0   0   0   3px #3c3c3c,
     1em 1em 3px 0 rgba(0,0,0,.5);
 }
 
@@ -75,12 +75,12 @@ button,
   color: white;
   font-family: inherit;
   font-size: inherit;
-  background: green;
+  background: #8e6e01;
   padding: 0 1em;
   box-shadow: .5em .5em 3px rgba(0,0,0,.5);
   position: relative;
   transition: .2s all ease-in;
-  border: 1px outset green;
+  border: 1px outset #8e6e01;
 }
 
 button.full-width,
@@ -107,7 +107,7 @@ button:hover,
 {
   transform: translate3d(.25em,.25em,10em);
   box-shadow: 0 0 0 rgba(0,0,0,.5);
-  background: limegreen;
+  background: #8e6e01;
 }
 
 button:hover:before,
@@ -130,7 +130,7 @@ button:focus:before,
 
 button:first-letter,
 .button:first-letter {
-  color: yellow;
+  color: white;
 }
 
 input, textarea {
@@ -245,7 +245,7 @@ p.exchange-rate {
 }
 
 #exchange-rate {
-    color: #006000;
+    color: chartreuse;
     font-weight: bold;
 }
 
